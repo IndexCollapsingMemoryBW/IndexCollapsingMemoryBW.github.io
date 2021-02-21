@@ -29,15 +29,17 @@
     
 <script type="module">
 
-    import * as THREE from '../build/three.module.js';
+  
+    import * as THREE from '//unpkg.com/three/build/three.module.js';
     ///////PostPRocessing Imports/////////
-            import { EffectComposer } from './postprocessing/EffectComposer.js';
-			import { RenderPass } from './/postprocessing/RenderPass.js';
-			import { ShaderPass } from './postprocessing/ShaderPass.js';
-    import { HalftonePass } from './postprocessing/HalftonePass.js';
+            import { EffectComposer } from '//unpkg.com/three/examples/jsm/postprocessing/EffectComposer.js';
+			import { RenderPass } from '//unpkg.com/three/examples/jsm/postprocessing/RenderPass.js';
+			import { ShaderPass } from '//unpkg.com/three/examples/jsm/postprocessing/ShaderPass.js';
+    import { HalftonePass } from '//unpkg.com/three/examples/jsm/postprocessing/HalftonePass.js';
 
-			import { RGBShiftShader } from './shaders/RGBShiftShader.js';
-			import { DotScreenShader } from './shaders/DotScreenShader.js';
+			
+    import { RGBShiftShader } from '//unpkg.com/three/examples/jsm/shaders/RGBShiftShader.js';
+			import { DotScreenShader } from '//unpkg.com/three/examples/jsm/shaders/DotScreenShader.js';
     
 
             import { UnrealBloomPass } from '//unpkg.com/three/examples/jsm/postprocessing/UnrealBloomPass.js';
